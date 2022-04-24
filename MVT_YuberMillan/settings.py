@@ -55,7 +55,7 @@ ROOT_URLCONF = 'MVT_YuberMillan.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ["C:/Users/Yuber Millan/ProyectoGit/MVT_YuberMillan/Plantillas/"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

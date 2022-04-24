@@ -6,3 +6,9 @@ class Familiar(models.Model):
     parentesco= models.CharField(max_length=20)
     edad= models.IntegerField()
     directo= models.BooleanField()
+
+class Mascota(models.Model):
+    clase= models.CharField(max_length=20)
+    nombre= models.CharField(max_length=20)
+
+
